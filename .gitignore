@@ -1,3 +1,6 @@
+processamento_backend/
+**/__pycache__/
+
 # Logs
 logs
 *.log

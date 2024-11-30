@@ -1,0 +1,41 @@
+/* EditorDeFotos.css */
+
+/* Layout do Editor de Fotos */
+.editor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  canvas {
+    border: 1px solid #ccc;
+    cursor: crosshair;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  input[type="file"] {
+    margin: 20px 0;
+  }
+  
